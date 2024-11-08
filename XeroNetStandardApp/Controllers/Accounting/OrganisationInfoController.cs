@@ -21,6 +21,7 @@ namespace XeroNetStandardApp.Controllers
         {
             // Call get organisation endpoint
             var response = await Api.GetOrganisationsAsync(XeroToken.AccessToken, TenantId);
+            //ar connectionResponse = await Api.GetConnection
 
             ViewBag.jsonResponse = response.ToJson();
             return View(response._Organisations[0]);

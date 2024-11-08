@@ -1,6 +1,6 @@
 @model dynamic
 
-<h2>Xero Connections</h2>
+<h2>Connections</h2>
 
 <table class="table table-responsive-lg">
     <tr>
@@ -22,19 +22,12 @@
           <td>
               @connection.CreatedDateUtc.ToString("d/M/yy")</td>
           <td>@connection.UpdatedDateUtc.ToString("d/M/yy")</td>
-          <td>
+          @* <td>
               <button class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "IdentityInfo", new { connectionId = @connection.Id })'">Delete</button>
-          </td>
+          </td> *@
       </tr>
   }
 </table>
 
 <hr />
 <br />
-
-@*
-    Raw JSON Response
-*@
-
-<p class="h5">Raw JSON Response:</p>
-<textarea class="form-control" readonly style="height: 350px">@ViewBag.jsonResponse</textarea>

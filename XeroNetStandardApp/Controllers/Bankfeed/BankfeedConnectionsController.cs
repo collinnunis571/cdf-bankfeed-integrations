@@ -52,7 +52,6 @@ namespace XeroNetStandardApp.Controllers
         /// <summary>
         /// POST: /BankfeedConnections#Create
         /// </summary>
-        /// <param name="accountToken">Account token of feed connection to create</param>
         /// <param name="accountNumber">Account number of feed connection to create</param>
         /// <param name="accountType">Account type of feed connection to create</param>
         /// <param name="accountName">Account name of feed connection to create</param>
@@ -61,7 +60,6 @@ namespace XeroNetStandardApp.Controllers
         /// <returns>Return action result redirecting user to get feed connections page</returns>
         [HttpPost]
         public async Task<ActionResult> Create(
-          string accountToken,
           string accountNumber,
           string accountType,
           string accountName,
@@ -81,7 +79,7 @@ namespace XeroNetStandardApp.Controllers
                 {
                     new FeedConnection
                     {
-                        AccountToken = accountToken,
+                        AccountToken = Guid.NewGuid().ToString(),
                         AccountNumber = accountNumber,
                         AccountType = accountTypeEnum,
                         AccountName = accountName,

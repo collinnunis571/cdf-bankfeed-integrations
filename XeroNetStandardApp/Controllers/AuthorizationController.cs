@@ -50,20 +50,31 @@ namespace XeroNetStandardApp.Controllers
                 return Content("Cross site forgery attack detected!");
             }
 
-            var xeroToken = (XeroOAuth2Token) await _client.RequestAccessTokenAsync(code);
+            var xeroToken1 = await _client.RequestAccessTokenAsync(code);
 
-            if (xeroToken.IdToken != null && !JwtUtils.validateIdToken(xeroToken.IdToken, xeroConfig.Value.ClientId))
+            try
             {
-                return Content("ID token is not valid");
-            }
 
-            if (xeroToken.AccessToken != null && !JwtUtils.validateAccessToken(xeroToken.AccessToken))
+                var xeroToken = (XeroOAuth2Token)xeroToken1;
+
+                if (xeroToken.IdToken != null && !JwtUtils.validateIdToken(xeroToken.IdToken, xeroConfig.Value.ClientId))
+                {
+                    return Content("ID token is not valid");
+                }
+
+                if (xeroToken.AccessToken != null && !JwtUtils.validateAccessToken(xeroToken.AccessToken))
+                {
+                    return Content("Access token is not valid");
+                }
+
+                tokenIO.StoreToken(xeroToken);
+                return RedirectToAction("Index", "OrganisationInfo");
+            }
+            catch(Exception ex)
             {
-                return Content("Access token is not valid");
+                Console.WriteLine(ex.ToString(), ex.InnerException, ex.Message, ex.StackTrace, ex.Source);
+                return RedirectToAction("Index", "ÖrganisationInfo");
             }
-
-            tokenIO.StoreToken(xeroToken);
-            return RedirectToAction("Index", "OrganisationInfo");
         }
 
         /// <summary>

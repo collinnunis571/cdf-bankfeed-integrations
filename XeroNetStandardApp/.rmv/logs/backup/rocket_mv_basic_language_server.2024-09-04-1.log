@@ -1,0 +1,126 @@
+2024-09-04 15:23:11.474 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2024-09-04 15:23:11.495 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2024-09-04 15:23:11.622 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2024-09-04 15:23:11.677 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2024-09-04 15:23:11.678 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp
+2024-09-04 15:23:11.679 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp
+2024-09-04 15:23:11.696 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp
+2024-09-04 15:23:11.698 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2024-09-04 15:23:11.698 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/.rmv/config
+2024-09-04 15:23:11.698 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2024-09-04 15:23:11.698 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/cnunis
+2024-09-04 15:23:11.733 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2024-09-04 15:23:11.735 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2024-09-04 15:23:11.736 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2024-09-04 15:23:11.741 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Projects\xero-netstandard-oauth2-app\XeroNetStandardApp\.rmv\documentation\UNIVERSE\custom.json
+2024-09-04 15:23:11.745 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\cnunis\documentation\UNIVERSE\custom.json
+2024-09-04 15:23:11.868 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2024-09-04 15:23:11.882 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp) load start
+2024-09-04 15:23:11.893 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2024-09-04 15:23:12.118 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2024-09-04 15:23:12.122 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2024-09-04 15:23:12.123 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2024-09-04 15:23:12.124 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2024-09-04 15:23:12.124 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp) load end
+2024-09-04 15:23:12.126 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/config/capability) doesn't exist or read error, default config will take effect
+2024-09-04 15:23:12.127 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2024-09-04 15:23:12.129 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2024-09-04 15:23:12.140 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2024-09-04 15:23:12.143 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2024-09-04 15:23:12.204 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in XeroNetStandardApp account
+2024-09-04 15:23:12.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.213 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.215 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for XeroNetStandardApp, its period 5s 
+2024-09-04 15:23:12.216 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in bin account
+2024-09-04 15:23:12.217 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.217 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.218 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for bin, its period 5s 
+2024-09-04 15:23:12.219 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Debug account
+2024-09-04 15:23:12.219 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.220 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.221 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Debug, its period 5s 
+2024-09-04 15:23:12.221 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Controllers account
+2024-09-04 15:23:12.222 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.222 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.223 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Controllers, its period 5s 
+2024-09-04 15:23:12.224 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in obj account
+2024-09-04 15:23:12.225 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.226 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.226 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for obj, its period 5s 
+2024-09-04 15:23:12.227 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Debug account
+2024-09-04 15:23:12.227 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.228 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.229 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Debug, its period 5s 
+2024-09-04 15:23:12.229 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in net6.0 account
+2024-09-04 15:23:12.230 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.230 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.231 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for net6.0, its period 5s 
+2024-09-04 15:23:12.232 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Views account
+2024-09-04 15:23:12.232 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.233 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.234 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Views, its period 5s 
+2024-09-04 15:23:12.234 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Shared account
+2024-09-04 15:23:12.234 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.235 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.235 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Shared, its period 5s 
+2024-09-04 15:23:12.236 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Components account
+2024-09-04 15:23:12.236 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.237 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.237 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Components, its period 5s 
+2024-09-04 15:23:12.238 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in wwwroot account
+2024-09-04 15:23:12.238 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.239 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.240 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for wwwroot, its period 5s 
+2024-09-04 15:23:12.241 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in lib account
+2024-09-04 15:23:12.242 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.242 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.243 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for lib, its period 5s 
+2024-09-04 15:23:12.243 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in bootstrap account
+2024-09-04 15:23:12.244 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.244 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.245 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for bootstrap, its period 5s 
+2024-09-04 15:23:12.245 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in dist account
+2024-09-04 15:23:12.246 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.246 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.247 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for dist, its period 5s 
+2024-09-04 15:23:12.248 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in jquery account
+2024-09-04 15:23:12.248 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.248 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.249 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for jquery, its period 5s 
+2024-09-04 15:23:12.250 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in jquery-validation account
+2024-09-04 15:23:12.250 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2024-09-04 15:23:12.250 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2024-09-04 15:23:12.251 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for jquery-validation, its period 5s 
+2024-09-04 15:23:12.263 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=XeroNetStandardApp, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp, type=PREDICT}
+Account{name=lib, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot/lib, type=PREDICT}
+Account{name=Debug, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/obj/Debug, type=PREDICT}
+Account{name=jquery, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot/lib/jquery, type=PREDICT}
+Account{name=net6.0, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/obj/Debug/net6.0, type=PREDICT}
+Account{name=jquery-validation, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot/lib/jquery-validation, type=PREDICT}
+Account{name=dist, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot/lib/bootstrap/dist, type=PREDICT}
+Account{name=obj, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/obj, type=PREDICT}
+Account{name=Components, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Views/Shared/Components, type=PREDICT}
+Account{name=wwwroot, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot, type=PREDICT}
+Account{name=Controllers, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers, type=PREDICT}
+Account{name=Views, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Views, type=PREDICT}
+Account{name=Debug, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/bin/Debug, type=PREDICT}
+Account{name=bootstrap, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/wwwroot/lib/bootstrap, type=PREDICT}
+Account{name=Shared, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Views/Shared, type=PREDICT}
+Account{name=bin, path=C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/bin, type=PREDICT}
+2024-09-04 15:23:12.263 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2024-09-04 15:23:12.265 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\cnunis/.rmv/config) watcher launch successful
+2024-09-04 16:24:17.491 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 16:24:17.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 16:24:20.767 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 18:38:41.952 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:14:16.125 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp)
+2024-09-04 21:16:41.796 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:25:47.184 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/bin/Debug/net6.0)
+2024-09-04 21:25:49.826 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/bin/Debug/net6.0)
+2024-09-04 21:26:02.739 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:31:28.925 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:32:34.010 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:32:39.404 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/IO)
+2024-09-04 21:32:55.671 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/IO)
+2024-09-04 21:33:25.040 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Projects/xero-netstandard-oauth2-app/XeroNetStandardApp/Controllers)
+2024-09-04 21:33:27.562 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited

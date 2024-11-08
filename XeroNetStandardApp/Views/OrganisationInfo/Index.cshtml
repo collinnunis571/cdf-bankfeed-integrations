@@ -5,15 +5,15 @@
 
 <table class="table table-responsive-lg">
     <tr>
-        <th>Name</th>
-        <th>Organisation Id</th>
-        <th>EntityType</th>
-        <th>BaseCurrency</th>
+        <th>Tenant Name</th>
+        <th>Legal Name</th>
+        <th>Tenant Id</th>
+        <th>Base Currency</th>
     </tr>
     <tr>
         <td>@Model.Name</td>
+        <td>@Model.LegalName</td>
         <td>@Model.OrganisationID</td>
-        <td>@Model.OrganisationEntityType</td>
         <td>@Model.BaseCurrency</td>
     </tr>
 </table>
@@ -25,5 +25,5 @@
     Raw JSON Response
 *@
 
-<p class="h5">Raw JSON Response:</p>
-<textarea class="form-control" readonly style="height: 350px">@ViewBag.jsonResponse</textarea>
+@* <p class="h5">Raw JSON Response:</p>
+<textarea class="form-control" readonly style="height: 350px">@ViewBag.jsonResponse</textarea> *@
